@@ -27,7 +27,7 @@ const Form = ({ flow, setFlow, diameter, setDiameter, velocity, setVelocity, den
         } else {
             setCalculatedValue("");
         }
-    }, [flow, diameter, velocity, density, calculatedValue])
+    }, [flow, setFlow, diameter, setDiameter, velocity, setVelocity, density, setDensity, calculatedValue])
 
     const resetCalcField = () => {
         if (calculatedValue) {
